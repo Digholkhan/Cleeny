@@ -1,0 +1,26 @@
+header{
+    background-color: #2F6EFF;
+    color: white;
+}
+
+.facbook-icon {
+    padding: 25px 6px;
+    background-color: #1773EA;
+}
+.twitter-icon {
+    padding: 25px 6px;
+    background-color: #2CA5DA;
+}
+.linkedin-icon {
+    padding: 25px 6px;
+    background-color: #0073B1;
+}
+.pinterest-icon {
+    padding: 25px 6px;
+    background-color: #E11A21;
+}
+.header-contact{
+    gap: 40px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
