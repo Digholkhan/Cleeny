@@ -1,8 +1,14 @@
+/* header part css */
+p{
+    font-family: "Poppins", sans-serif;
+}
 header{
     background-color: #2F6EFF;
     color: white;
 }
-
+header h5 {
+    font-family: "Poppins", sans-serif;
+}
 .facbook-icon {
     padding: 25px 6px;
     background-color: #1773EA;
@@ -22,5 +28,89 @@ header{
 .header-contact{
     gap: 40px;
     font-size: 15px;
+}
+/* Navbar part css */
+nav{
     font-family: "Poppins", sans-serif;
+}
+.btn-warning{
+    background-color: #FFC702;
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: #00197E !important;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    gap: 28px;
+}
+.nav-link {
+    color: #00197E;
+    font-size: 16px;
+    font-weight: 500;
+}
+.fa-magnifying-glass{
+    color: #00197E;
+}
+
+/* banner-part css */
+#Banner-Part{
+    background-image: url("../images/bannerBG.png");
+    color: white;
+    padding: 80px 0px;
+    position: relative;
+}
+#Banner-Part img{
+    width: 100%;
+}
+
+.banner-content h5{
+    color: #FFC702;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+.banner-content h1{
+    font-size: 65px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    padding: 24px 0px;
+}
+.banner-content h1 span{ 
+    color: #FFC702;
+}
+.banner-content p{ 
+    width: 533px;
+    padding-bottom: 24px;
+}
+
+/* cleany item part css */
+
+#cleaning-part {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 100%;
+}
+.cleanly-item{
+    display: flex;
+    gap: 28px;
+    color: #00197E;
+    align-items: center;
+    background-color: #F3F4F8;
+    padding: 32px 36px;
+}
+.cleanly-item h3{
+   font-size: 22px;
+   font-weight: 600;
+   font-family: "inter" sans-serif;
+}
+.cleanly-item p{
+   font-size: 15px;
+}
+
+/* About us part css */
+#About-us{
+    padding: 120px 0px;
 }
