@@ -1,11 +1,32 @@
 /* header part css */
 p{
     font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+ol, ul {
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
 }
 header{
     background-color: #2F6EFF;
     color: white;
 }
+h2{
+    font-size: 44px;
+    font-family: "inter" sans-serif;
+    font-weight: bold;
+}
+h5{
+    font-family: "inter" sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 header h5 {
     font-family: "Poppins", sans-serif;
 }
@@ -112,5 +133,132 @@ nav{
 
 /* About us part css */
 #About-us{
-    padding: 120px 0px;
+    padding: 220px 0px 120px 0px;
+}
+
+.about-content{
+    font-family: "inter" sans-serif;
+    width: 592px;
+}
+.about-content .btn-warning{
+    background-color: #2F6EFF;
+    border-color: #2F6EFF;
+    color: white !important;
+    margin-top: 36px;
+}
+.about-content h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1773EA;
+}
+
+.about-content h2{
+    color: #00197E;
+}
+
+.about-content p{
+    color: #0073B1;
+    padding: 12px 0px;
+}
+
+.about-content ul{
+    color: #0073B1;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px 0px;
+}
+
+.about-content li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.about-content ul i{
+    color: #2F6EFF; 
+}
+
+
+/* Our services part */
+#our-services{
+    background-image: url("../images/servicesBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 112px 0px;
+}
+
+.appoinment{
+    padding-bottom: 112px;
+}
+.appoinment h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 52px;
+}
+.appoinment input{
+    width: 299px;
+    height: 60px;
+    padding: 10px;
+}
+.appoinment .btn-warning{
+    padding: 18px 69px;
+    border-radius: 4px;
+}
+
+.sec-head{
+    text-align: center;
+}
+.sec-head h5{
+    color: #FFC702;
+}
+.sec-head h2{
+    color: white;
+}
+
+.services{
+    position: relative;
+    margin-top: 60px;
+}
+.service-content{
+    width: 373px;
+    background-color: #0A2A99;
+    padding: 64px 32px 24px 32px;
+    color: white;
+}
+.service-content img {
+    position: absolute;
+    bottom: 177px;
+    left: 32px;
+}
+.service-content ul{
+    color: #B8B9D5;
+    display: flex;
+    flex-direction: column;
+    gap: 11px 0px;
+}
+.service-content ul li{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-family: "popins" sans-serif;
+}
+.service-content ul i{
+    color: #FFC702;
+}
+.service-content a{
+    color: white ;
+    font-family: "inter" sans-serif ;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.services-dots{
+    margin-top: 56px;
+    color: #316FFF;
+
+}
+.services-dots i:first-child{
+    color: #FFC702;
 }
