@@ -378,6 +378,7 @@ nav{
 
 .cleany-items {
     width: 615px;
+    position: relative;
 }
 .cleany-items .thumb h6{
     background-color: var(--color-secondary);
@@ -387,12 +388,17 @@ nav{
 }
 
 .cleany-items-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 563px;
     background-color: var(--color-sky-blue);
     padding: 28px 21px 32px 30px;
     color: white;
     border-bottom: 4px solid var(--color-secondary);
     border-radius: 6px;
+    visibility: hidden;
+    transition: 0.3s linear;
 }
 
 .arrow-icon{
@@ -400,4 +406,149 @@ nav{
     height: 39px;
     background-color: var(--color-secondary);
     border-radius: 50%;
+}
+.thumb{
+    position: absolute;
+    top: 24px;
+    left: 25px;
+    visibility: hidden;
+    transition: 0.3s linear;
+}
+.cleany-items:hover .cleany-items-content{
+    visibility: visible;
+}
+.cleany-items:hover .thumb{
+    visibility: visible;
+}
+
+#carouselExampleIndicators {
+    margin-top: 60px;
+}
+
+.carousel-indicators [data-bs-target] {
+   
+    background-color: #316FFF;
+   
+}
+.carousel-indicators {
+    bottom: -100px;
+}
+
+/* pricing part css */
+
+#pricing-plan{
+    padding: 112px 0px;
+}
+
+.EX-service {
+    background-image: url('../images/ExSerivce.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 110px 64px 60px 64px;
+    height: 280px;
+}
+.EX-service h2{
+    width: 562px;
+    color: white;
+}
+
+.pricing-plan{
+    padding: 112px 0px;
+}
+
+#pricing-plan .sec-head {
+    padding-top: 112px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+#pricing-plan .sec-head h2{
+    color: var(--color-primary);
+}
+#pricing-plan .sec-head h5{
+    color: var(--color-sky-blue);
+}
+
+.monthly-plan{
+    width: 380px;
+    background-color: #F3F4F8;
+    padding-top: 132px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.monthly-plan h3{
+    font-size: 22px;
+    color: var(--color-primary);
+    background-color: white;
+    padding: 8px  40px 8px 32px;
+    display: inline-block;
+    border-left: 3px solid var(--color-sky-blue);
+    border-radius: 0px 50px 50px 0px;
+}
+.monthly-plan ul{
+    padding: 32px 0px;
+}
+.monthly-plan ul li  {
+    color: var(--color-primary);
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 12px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.monthly-plan ul li i  {
+    color: var(--color-sky-blue);
+    font-size: 15px;
+}
+.monthly-plan .btn  {
+   background-color: var(--color-sky-blue) !important;
+   color: white !important;
+   border: none !important;
+   margin-left: 30px !important;
+}
+
+.monthly-price{
+    height: 120px;
+    width: 120px;
+    background-color: var(--color-sky-blue);
+    padding: 16px 23px;
+    border-radius: 0px 12px 12px 12px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.monthly-price h4{
+    font-size: 16px;
+}
+.monthly-price h2{
+    font-size: 42px;
+}
+.monthly-price h2 span{
+    font-size: 20px;
+}
+
+/* testimonial part css */
+
+#Testimonial-part{
+    background-image: url("../images/Testimonial.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 112px 0px;
+
+}
+
+#Testimonial-part .sec-head{
+    text-align: center;
+    color: white;
+
+}
+
+
+#Testimonial-part .sec-head h5{
+    color: var(--color-secondary);
+
 }
