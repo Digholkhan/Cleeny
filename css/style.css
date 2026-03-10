@@ -552,3 +552,76 @@ nav{
     color: var(--color-secondary);
 
 }
+
+.review{
+    background-color: var(--color-para-blue);
+    padding: 50px 40px;
+    border-radius: 12px;
+    margin-top: 40px
+    
+}
+.review h3{
+    color: var(--color-secondary);
+    font-size: 18px;
+    padding: 28px 0px 20px 0px;
+}
+.reviewProfile h3{
+    color: white;
+    font-size: 20px;
+    padding: 12px 0px 7px 0px;
+}
+.reviewProfile h5{
+    color: #788AC6;
+}
+.review p{
+    color: white;
+}
+
+/* latest-blog part css */
+
+#latest-blog{
+   padding-top: 112px;
+}
+#latest-blog .row{
+   margin-top: 60px;
+}
+#latest-blog .sec-head h5{
+   color: #2F6EFF;
+}
+#latest-blog .sec-head h2{
+   color: var(--color-primary);
+   width: 640px;
+}
+
+.blogs-text{
+    padding: 28px;
+    background-color: #F3F4F8;
+}
+.blogs-text h3{
+    font-size: 22px;
+    color: var(--color-primary);
+}
+.blogs-text p{
+    color: var(--color-para-blue);
+    padding: 12px 0px;
+    line-height: 24px;
+}
+.blogs-text a{
+    color: var(--color-para-blue);
+
+}
+.blog-thumb{
+    background-color: var(--color-secondary);
+    padding: 10px 20px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.brands{
+    background-color: #F3F4F8;
+    padding: 95px 0px 76px 0px;
+    margin-top: 112px;
+}
+
+
