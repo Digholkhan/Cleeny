@@ -92,6 +92,9 @@ nav{
 /* banner-part css */
 #Banner-Part{
     background-image: url("../images/bannerBG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     padding: 80px 0px;
     position: relative;
@@ -623,5 +626,111 @@ nav{
     padding: 95px 0px 76px 0px;
     margin-top: 112px;
 }
+footer{
+    background-image: url("../images/FooterBg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-top{
+    background-image: url("../images/footerTop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 24px 24px;
+}
+.footer-top-left{
+    padding: 30px 0px 30px 40px;
+    color: var(--color-primary);
+}
+.footer-top-left h4{
+    font-size: 15px;
+}
+.footer-top-left h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+.footer-top-right{
+    padding: 38px  40px;
+   
+}
+.footer-top-right h3{
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+}
+.footer-top-right .input-group{
+   width: 394px;
 
+}
+.footer-top-right .input-group .input-group-text{
+   background-color: var(--color-primary);
+   color: white;
+   padding: 16px 22px;
 
+}
+.footer-center{
+    color: white;
+    padding-top: 130px;
+}
+.footer-center .social-icons i {
+    border: 1px solid white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.footer-center .social-icons  {
+    display: flex;
+    gap: 12px;
+}
+.footer-center p{
+    padding: 28px 0px;
+    line-height: 28px;
+    font-size: 16px;
+}
+.footer-center ul li{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.footer-center ul{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer-center h4{
+    font-size: 18px;
+}
+.latest-blog ul  {
+    padding-top: 8px;
+}
+.latest-blog ul li {
+    color: #808CBF;
+    font-size: 14px;
+}
+.latest-blog-contact i{
+    height: 44px;
+    width: 44px;
+    padding: 11px;
+    font-size: 20px;
+    border: 1px dashed white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #43559f9d;
+}
+.footer-bottom{
+    margin-top: 96px;
+    border-top: 1px solid #334899;
+}
+.footer-bottom p{
+    font-size: 16px;
+    padding: 28px 0px;
+    color: white;
+    text-align: center;
+}
