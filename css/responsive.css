@@ -1,0 +1,198 @@
+@media (max-width: 576px) {
+    h2 {
+        font-size: 34px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .banner-content h5 {
+        font-size: 14px;
+    }
+
+    .banner-content h1 {
+        font-size: 45px;
+        font-weight: 700;
+        padding: 15px 0px;
+    }
+
+    .banner-content p {
+        width: 100%;
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    .btn-warning {
+        padding: 10px 20px;
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+
+    .cleanly-item {
+        gap: 20px;
+        padding: 16px 20px;
+    }
+
+    .cleanly-item h3 {
+        font-size: 16px;
+    }
+
+    .cleanly-item p {
+        font-size: 12px;
+    }
+
+    #cleaning-part {
+        bottom: -170px;
+    }
+
+    #About-us {
+        padding: 220px 0px 80px 0px;
+    }
+
+    .about-content {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .about-content h5 {
+        font-size: 14px;
+    }
+
+    .appoinment {
+    padding-bottom: 80px;
+}
+    .appoinment input {
+        margin: auto;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .appoinment .btn-warning {
+        margin: auto;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .services {
+        margin: auto;
+        margin-top: 60px;
+    }
+    #Working-process {
+    padding: 80px 0px 75px 0px;
+}
+.work-shape3 {
+    top: 225px;
+    width: 90px;
+}
+.work-shape4 {
+    display: none;
+}
+#Working-process .sec-head {
+    width: 100%;
+}
+.work-shape {
+    display: none;
+}
+#cleeny-portfolio {
+    padding: 70px 0px;
+}
+#cleeny-portfolio .sec-top{
+    flex-wrap: wrap;
+    text-align: center;
+}
+#cleeny-portfolio .sec-head {
+    width: 100%;
+    text-align: center;
+}
+#cleeny-portfolio .btn-warning {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.cleany-items-content {
+    width: 100%; 
+}
+.cleany-items-content h6{
+    font-size: 14px;
+}
+.cleany-items-content h6{
+    font-size: 18px;
+}
+#pricing-plan {
+    padding: 80px 0px;
+}
+.EX-service {
+    flex-wrap: wrap;
+    text-align: center;
+}
+.EX-service h2 {
+    width: 100%;
+    font-size: 24px;
+}
+.EX-service .btn {
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+}
+#pricing-plan .sec-head {
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+#pricing-plan .row {
+    gap: 80px;
+}
+.monthly-plan {
+    margin: auto;
+}
+#latest-blog .sec-head h2 {
+    color: var(--color-primary);
+    width: 100%;
+}
+.brands {
+    padding: 50px 0px 50px 0px;
+    margin-top: 80px;
+}
+.brands .d-flex {
+    flex-direction: column;
+    gap: 40px;
+}
+.brands .d-flex div{
+    text-align: center;
+}
+.footer-top-left {
+    text-align: center;
+}
+.footer-top-right {
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-top-right .input-group {
+    width: 80%;
+}
+.footer-center {
+    padding-top: 80px;
+    text-align: center;
+}
+.footer-center .social-icons {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-center ul {
+    width: 160px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.latest-blog .d-flex {
+    flex-direction: column;
+}
+.latest-blog-contact .d-flex{
+    flex-direction: column;
+}
+.latest-blog-contact i {
+    margin: auto;
+}
+
+}

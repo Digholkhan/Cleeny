@@ -152,6 +152,9 @@ nav{
 #About-us{
     padding: 220px 0px 120px 0px;
 }
+#About-us img{
+   width: 100%;
+}
 
 .about-content{
     font-family: "inter" sans-serif;
@@ -235,6 +238,7 @@ nav{
 
 .services{
     position: relative;
+    width: 406px;
     margin-top: 60px;
 }
 .service-content{
